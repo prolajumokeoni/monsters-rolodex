@@ -44,6 +44,7 @@ this.setState(() => {
 
     return (
       <div className="App">
+      <h1 className="app-title">Monst Rolodex</h1>
       <SearchBox className={"monsters-searchbox"}
        onChangeHandler={onSearchChange} placeholder='search monsters' />
       <CardList monsters={filteredMonsts} />
